@@ -1,8 +1,15 @@
+// import React and ReactDOM
+
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './App';
+import App from '../src/Components/App/App';
 import reportWebVitals from './reportWebVitals';
+
+// create a React Component
+
+// render/show on screen the React Component
 
 ReactDOM.render(
   <React.StrictMode>

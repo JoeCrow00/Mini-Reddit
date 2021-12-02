@@ -1,0 +1,11 @@
+.App-subreddits {
+    display: flex;
+    min-height: 7vh;
+    background-color: #ff8f57;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+  }
