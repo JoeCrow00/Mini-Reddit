@@ -1,11 +1,106 @@
 .App-subreddits {
     display: flex;
     min-height: 7vh;
-    background-color: #ff8f57;
+    background-color: #ff945f;
     align-items: center;
     justify-content: space-around;
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 30px;
     margin-bottom: 10px;
-  }
+    min-width: 400px;
+}
+
+@media only screen and (max-width: 990px) {
+    .App-subreddits {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .App-subreddits {
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .App-subreddits {
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 5px;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+
+#subbuttons1 {
+    border-radius: 20px;
+    background-color: #ffbd9b;
+}
+#subbuttons1:focus {
+    background-color: #FF5700;
+}
+#subbuttons1:hover {
+    background-color: #FF5700;
+    transition: 0.2s;
+}
+#subbuttons2 {
+    border-radius: 20px;
+    background-color: #ffbd9b;
+}
+#subbuttons2:focus {
+    background-color: #FF5700;
+}
+#subbuttons2:hover {
+    background-color: #FF5700;
+    transition: 0.2s;
+}
+#subbuttons3 {
+    border-radius: 20px;
+    background-color: #ffbd9b;
+}
+#subbuttons3:focus {
+    background-color: #FF5700;
+}
+#subbuttons3:hover {
+    background-color: #FF5700;
+    transition: 0.2s;
+}
+#subbuttons4 {
+    border-radius: 20px;
+    background-color: #ffbd9b;
+}
+#subbuttons4:focus {
+    background-color: #FF5700;
+}
+#subbuttons4:hover {
+    background-color: #FF5700;
+    transition: 0.2s;
+}
+#subbuttons5 {
+    border-radius: 20px;
+    background-color: #ffbd9b;
+}
+#subbuttons5:focus {
+    background-color: #FF5700;
+}
+#subbuttons5:hover {
+    background-color: #FF5700;
+    transition: 0.2s;
+}
+#subbuttons6 {
+    border-radius: 20px;
+    background-color: #ffbd9b;
+}
+#subbuttons6:focus {
+    background-color: #FF5700;
+}
+#subbuttons6:hover {
+    background-color: #FF5700;
+    transition: 0.2s;
+}

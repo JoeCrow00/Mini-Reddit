@@ -1,0 +1,27 @@
+.loading-cards {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+@media only screen and (max-width: 990px) {
+    .loading-cards {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .loading-cards{
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .loading-cards {
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+}

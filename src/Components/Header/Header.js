@@ -8,10 +8,10 @@ class Header extends React.Component {
         return (
             <div className="App-header">
                 <div className="logo">
-                    <FaReddit className="redditlogo"/>
+                    <a href="/"><FaReddit className="redditlogo"/></a>
                     <p>MiniReddit</p>
                 </div>
-                <SearchBar />
+                <SearchBar onSubmit={this.props.onSubmit}/>
             </div>
         )
     }

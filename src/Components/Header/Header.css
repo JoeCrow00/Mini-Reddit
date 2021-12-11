@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 25%;
-    padding-right: 25%;
+    padding-right: 26%;
     font-size: calc(10px + 2vmin);
     color: white;
     margin-bottom: 10px;
@@ -23,6 +23,20 @@
 .redditlogo {
     width: 40px;
     height: 40px;
-    color: #FF5700;
+    color: #ff5500;
     margin-right: 5px;
+}
+
+@media only screen and (max-width: 990px) {
+    .App-header {
+        padding-left: 10%;
+        padding-right: 11%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .App-header {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
